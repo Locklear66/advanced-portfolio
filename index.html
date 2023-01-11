@@ -9,11 +9,10 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
    <script src="https://kit.fontawesome.com/dbe21d6795.js" crossorigin="anonymous"></script>
-
    <title>Lance Wooley</title>
 </head>
 <body>
-   <section id="landingpage">
+   <section id="landing-page">
       <nav>
          <figure>
             <img class="personal__logo" src="./assets/logo.svg" alt="">
@@ -40,11 +39,129 @@
                   link__hover-effect--black"
                >Contacts</a>
             </li>
-            <li class="nav__link">
-               <i class="fa-solid fa-circle-half-stroke"></i>
+            <li class="nav__link click">
+               <a href="#" class="
+                  nav__link--anchor
+                  link__hover-effect
+                  link__hover-effect--black"
+               ><i class="fas fa-adjust"></i></a>
             </li>
+          
          </ul>
       </nav>
+      <header class="header">
+         <h1 class="title">Hey</h1>
+         <h1 class="title title--secondary">I'm Lance.</h1>
+         <p class="header__para">I'm a <b class="orange"> Frontend Software Engineer</b> with a strong passion for building web applications with great user exsperiences.
+            <br>
+            Here's a bit more <b class="orange">about me.</b>
+         <p>
+            <div class="social__list">
+               <a href="" class="social__link click">
+                  <i class="fa-brands fa-linkedin-in"></i>
+               </a>
+               <a href="" class="social__link click">
+                  <i class="fa-regular fa-file-pdf"></i>
+               </a>
+               <a href="" class="social__link click">
+                  <i class="fa-brands fa-github"></i>
+               </a>
+            </div>
+      </header>
+      <button class="mail__btn click">
+         <i class="fa-regular fa-envelope"></i>
+      </button>
+      <a href="#projects" class="scroll">
+         <div class="scroll__icon click"></div>
+      </a>
    </section>
+   <section id="projects">
+      <div class="container">
+         <div class="row">
+            <h1 class="section__title">
+               Here are some of my <span class="orange"> projects.</span>
+            </h1>
+            <ul class="project__list">
+               <li class="project">
+                  <div class="project__wrapper">
+                     <img src="./assets/blinker mockup.png" class="project__img" alt="">
+                     <div class="project__wrapper--bg"></div>
+                     <div class="project__description">
+                        <h3 class="project__description--title">Car Sales Projects</h3>
+                        <h4 class="project__description--sub-title">Html, CSS, JavaScript</h4>
+                        <p class="project__description--para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta dolorem itaque unde nobis voluptatibus, amet quam vel expedita. Alias provident doloremque explicabo ut, repellat et dolores! Libero laborum reprehenderit sed.</p>
+                        <div class="project__description--links">
+                           <a href="#" class="project__description--links">
+                              <i class="fa-brands fa-github"></i>
+                           </a>
+                           <a href="#" class="project__description--links">
+                              <i class="fa-brands fa-linkedin-in"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+            <ul class="project__list">
+               <li class="project">
+                  <div class="project__wrapper">
+                     <img src="./assets/blinker mockup.png" class="project__img" alt="">
+                     <div class="project__wrapper--bg"></div>
+                     <div class="project__description">
+                        <h3 class="project__description--title">Car Sales Projects</h3>
+                        <h4 class="project__description--sub-title">Html, CSS, JavaScript</h4>
+                        <p class="project__description--para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta dolorem itaque unde nobis voluptatibus, amet quam vel expedita. Alias provident doloremque explicabo ut, repellat et dolores! Libero laborum reprehenderit sed.</p>
+                        <div class="project__description--links">
+                           <a href="#" class="project__description--links">
+                              <i class="fa-brands fa-github"></i>
+                           </a>
+                           <a href="#" class="project__description--links">
+                              <i class="fa-brands fa-linkedin-in"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </section>
+   <footer>
+      <div class="container">
+         <figure>
+            <img src="./assets/logo.svg" alt="">
+         </figure>
+         <div class="footer__social--list">
+            <a href="" class="
+               footer__social--link
+               liver__hover-effect
+               liver__hover-effect--white
+            ">
+               GitHub
+            </a>
+            <a href="" class="
+               footer__social--link
+               liver__hover-effect
+               liver__hover-effect--white
+            ">
+               LinkedIn
+            </a>
+            <a href="" class="
+               footer__social--link
+               liver__hover-effect
+               liver__hover-effect--white
+            ">
+               Email
+            </a>
+            <a href="" class="
+               footer__social--link
+               liver__hover-effect
+               liver__hover-effect--white
+            ">
+               Resume
+            </a>
+         </div>
+      </div>
+   </footer>
 </body>
 </html>
