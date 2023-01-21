@@ -707,7 +707,7 @@ Shapes
 
 .shape{
   position: fixed;
-
+  z-index: 0;
 }
 
 .shape--0{
@@ -782,8 +782,13 @@ Small Phones, Tablets, Large Smart Phones
 
   .model__half{
     width: 100%;
-   
   }
+
+  .project{
+    margin-right: 34px;
+  }
+
+  
 }
 
 /* 
@@ -808,6 +813,11 @@ Small Phones
   .project__description--para{
     display: none;
   }
+
+  .project{
+   margin-right: 34px;
+  }
+
   .project__description{
     left: 0;
     padding: 0;
