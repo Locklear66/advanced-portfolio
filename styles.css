@@ -597,6 +597,7 @@ Projects
 
 .project__img{
   width: 100%;
+  height: 100%;
   transition: all 450ms ease;
 }
 
