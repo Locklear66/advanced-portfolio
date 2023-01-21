@@ -1,6 +1,4 @@
-// template_bpavk3e
-// service_uc6u3wm
-// rJeubM889V0KM5C2W
+// Runs the background movement 
 const scaleFactor = 1/20
 
 function moveBackground(event) {
@@ -15,6 +13,8 @@ function moveBackground(event) {
   }
 }
 
+
+// Rubs the darm theme toggle
 let contrastToggle = false;
 
 function toggleContrast() {
@@ -28,7 +28,7 @@ function toggleContrast() {
 }
 
 
-
+// Runs the Model loading event
 function contact(event){
   event.preventDefault();
   const loading = document.querySelector('.model__overlay--loading');
@@ -52,6 +52,7 @@ function contact(event){
      })
 }
 
+// Runs the MOdel open and close feature
 let isModelOpen = false;
 function toggleModel() {
   if (isModelOpen) {
