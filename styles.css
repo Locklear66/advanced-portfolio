@@ -81,12 +81,6 @@ a {
   text-decoration: none;
 }
 
-.row {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 li{
    list-style-type: none;
 }
@@ -177,7 +171,7 @@ input:hover, textarea:hover{
 }
 
 .title--secondary, .orange{
-  color: #f06449;
+  color: maroon;
 }
 
 .link__hover-effect{
@@ -707,7 +701,6 @@ Shapes
 
 .shape{
   position: fixed;
-  z-index: 0;
 }
 
 .shape--0{
@@ -788,6 +781,10 @@ Small Phones, Tablets, Large Smart Phones
     margin-right: 34px;
   }
 
+  .shape{
+    display: none;
+  }
+
   
 }
 
@@ -830,6 +827,10 @@ Small Phones
 
   .model__half{
     padding: 40px;
+  }
+
+  .shape{
+    display: none;
   }
 }
 
