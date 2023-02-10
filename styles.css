@@ -781,6 +781,10 @@ Small Phones, Tablets, Large Smart Phones
     margin-right: 34px;
   }
 
+  .project__description--para{
+    margin-right: 2rem;
+  }
+
   .shape{
     display: none;
   }
