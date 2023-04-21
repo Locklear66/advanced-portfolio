@@ -14,7 +14,7 @@ function moveBackground(event) {
 }
 
 
-// Rubs the darm theme toggle
+// Runs the darm theme toggle
 let contrastToggle = false;
 
 function toggleContrast() {
